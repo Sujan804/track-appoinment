@@ -39,14 +39,14 @@ const Search = ()=>{
                     <label htmlFor="query" className="sr-only"/>
                 </div>
                 <input type="text" name="query" id="query" value=""
-                   className="pl-8 rounded-md focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm "
+                   className="pl-8 rounded-l-md focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm "
                    placeholder="Search" />
                 <div className=" absolute inset-y-0 right-0 flex items-start">
                     <div >
                         <button type="button"
                         className="justify-center px-4 py-2 bg-blue-400 border-2 border-blue-400 
                         text-sm text-white hover:bg-blue-700
-                        focus:outline-none focus:ring-2 focus:ring-offset-2 flex items-center rounded-md" id="options-menu"
+                        focus:outline-none focus:ring-2 focus:ring-offset-2 flex items-center rounded-r-md" id="options-menu"
                         aria-haspopup="true">
                             
                             Sort by <BiCaretDown/>
